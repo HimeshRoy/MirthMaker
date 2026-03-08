@@ -17,7 +17,7 @@
                 <div class="col-md-3 d-flex justify-content-start align-items-center">
                     <div class="d-inline w-auto d-flex justify-content-start align-items-top">
                         <img src="Mirth & Maker logo.png" alt="Mirth & Maker" width="60px">
-                    </div> 
+                    </div>
                     <div>
                         <h1 class="fw-light text-opacity-25">|</h1>
                     </div>
@@ -41,7 +41,18 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-3 d-flex justify-content-end">
+                <div class="col-md-3 d-flex justify-content-end gap-3">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <label for="location" title="location"><h3 class="d-inline text-danger"><i class="fa-solid fa-location-dot"></i></h3></label>
+                        <select name="location" id="location" class="border border-0 fs-5">
+                            <option value="1">Location</option>
+                            <option value="2">Delhi</option>
+                            <option value="3">Kolkata</option>
+                            <option value="4">Mumbai</option>
+                            <option value="5">Hyderabad</option>
+                            
+                        </select>
+                    </div>
                     <a href="login.html" class="text-danger-emphasis fs-1 " title="user"><i
                             class="fa-solid fa-circle-user"></i></a>
                 </div>
@@ -329,23 +340,23 @@
             <div class="row my-3">
                 <ul class="nav">
                     <li class="nav-item">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    <i class="fa-solid fa-sliders"></i>
-                                    Filters
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Popularity</a></li>
-                                    <li><a class="dropdown-item" href="#">Price : Low to High</a></li>
-                                    <li><a class="dropdown-item" href="#">Price : High to Low</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#"><label for="date">Select Date:</label>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="fa-solid fa-sliders"></i>
+                                Filters
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Popularity</a></li>
+                                <li><a class="dropdown-item" href="#">Price : Low to High</a></li>
+                                <li><a class="dropdown-item" href="#">Price : High to Low</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#"><label for="date">Select Date:</label>
                                         <input type="date" name="date" id="date" title="Select event date"></a></li>
-                                </ul>
-                            </div>
+                            </ul>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class=" btn fs-5" href="#">Today</a>
@@ -379,7 +390,7 @@
                                 <span class="card-text">Sat, 07 Mar, 8:00 PM</span><br>
                                 <span class="fw-bold">An 8-Course Michelin-Starred Culinary Affair at OKO</span><br>
                                 <span>The Lalit New Delhi, Barakhamba Road</span><br>
-                            
+
                             </div>
                         </div>
                     </a>
@@ -404,7 +415,8 @@
                                 class="card-img-top" height="400px" alt="...">
                             <div class="card-body">
                                 <span class="card-text">Sat, 14 march, 7:00 pm</span><br>
-                                <span class="fw-bold">My Story - India Chapter | Yo Yo Honey Singh Live in Delhi</span><br>
+                                <span class="fw-bold">My Story - India Chapter | Yo Yo Honey Singh Live in
+                                    Delhi</span><br>
                                 <span>Delhi NCR</span><br>
                             </div>
                         </div>
