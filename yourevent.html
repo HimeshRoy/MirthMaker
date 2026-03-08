@@ -36,21 +36,24 @@
                                 href="events.html">Events</a>
                         </li>
                         <li class="nav-item mx-4">
-                            <a class="text-danger-emphasis text-decoration-none fs-4 border border-2 px-2 py-1 border-danger rounded-3"
+                            <a class="text-danger-emphasis text-decoration-none fs-4 border border-2 px-2 py-1 border-danger rounded-4 border-opacity-25 bg-danger bg-opacity-25"
                                 href="yourevent.html">YourEvent</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-3 d-flex justify-content-end gap-3">
                     <div class="d-flex justify-content-center align-items-center">
-                        <label for="location" title="location"><h3 class="d-inline text-danger"><i class="fa-solid fa-location-dot"></i></h3></label>
-                        <select name="location" id="location" class="border border-0 fs-5">
+                        <label for="location" title="location">
+                            <h3 class="d-inline text-danger"><i class="fa-solid fa-location-dot"></i></h3>
+                        </label>
+                        <select name="location" id="location" class="border border-0 fs-5" title="select-loaction">
                             <option value="1">Location</option>
                             <option value="2">Delhi</option>
                             <option value="3">Kolkata</option>
                             <option value="4">Mumbai</option>
                             <option value="5">Hyderabad</option>
-                            
+                            <option value="6" disabled> &copy; Mirth & Maker</option>
+
                         </select>
                     </div>
                     <a href="login.html" class="text-danger-emphasis fs-1 " title="user"><i
@@ -64,25 +67,37 @@
         <section class="container-lg my-5">
             <div class="row">
                 <div class="col-md-6">
+                    <video src="wedding-event.mp4" autoplay muted loop
+                        class="w-100 border border-0 rounded-5 shadow shadow-regular"></video>
+                </div>
+                <div class="col-md-6 text-center  d-flex flex-column justify-content-center align-items-center">
+                    <h1 class="text-danger fw-bolder">Not Just Parties & Concerts</h1>
+                    <p class="fs-3">From celebrations and concerts to beautiful weddings,
+                        Mirth & Maker helps you plan every special moment perfectly.</p>
+                </div>
+            </div>
+        </section>
+        <section class="container-lg my-5">
+            <div class="row">
+                <div class="col-md-6">
                     <div class="text-center"><img src="Yourvent logo.png" width="300px" alt="logo"></div>
 
-                    <h2>Host Your Own Event</h2>
+                    <h1 class="text-danger fw-bolder">Host Your Own Event</h1>
 
-                    <p>
+                    <p class="fs-5 text-secondary text-opacity-75">
                         Don't just attend events — create your own!
                         With Mirth & Maker YourEvent, you can host concerts,
                         comedy shows, workshops, and private celebrations
                         with ease.
-                    </p>
-
-                    <p>
-                        Manage bookings, reach a wider audience,
+                        <br>
+                         Manage bookings, reach a wider audience,
                         and make your event unforgettable.
                     </p>
                 </div>
 
                 <div class="col-md-6">
-                    <div class="border border-1 d-flex flex-column justify-content-center shadow shadow-normal rounded-3 p-3">
+                    <div
+                        class="border border-1 d-flex flex-column justify-content-center shadow shadow-normal rounded-3 p-3">
                         <div class="row g-3">
                             <div class="col">
                                 <input type="text" class="form-control" placeholder="First name"
@@ -102,7 +117,7 @@
                         </div>
                         <form class="form-floating mt-3">
                             <input type="email" class="form-control" id="floatingInputValue"
-                                placeholder="name@example.com" value="test@example.com">
+                                placeholder="name@example.com">
                             <label for="floatingInputValue">Email</label>
                         </form>
                         <form class="form-floating mt-3">
@@ -121,6 +136,10 @@
                                 <option value="6">Private Parties</option>
                                 <option value="7">Corporate Conferences</option>
                                 <option value="8">Cultural Festivals</option>
+                                <option value="9">Wedding Events</option>
+                                <br>
+                                <hr class="text-secondary text-opacity-50 border border-2 border-secondary border-opacity-50">
+                                <option value="10" disabled>&copy; YourEvent</option>
                             </select>
                             <label for="floatingSelect">Event Type</label>
                         </div>
@@ -135,56 +154,70 @@
         </section>
 
         <section class="container-lg">
-            <div class="row border border-1 rounded-3 p-4">
+            <div class="row">
                 <div class="col-md-6">
-                <h2>About YourEvent</h2>
-                <p class="fs-4 fw-light">
-                    YourEvent by Mirth & Maker allows individuals, creators, and organizations
-                    to host and manage their own events easily. Whether it's a comedy show,
-                    concert, workshop, or private celebration, YourEvent provides the tools
-                    to organize, promote, and manage events smoothly.
-                </p>
+                    <h1>About <span class="text-danger">YourEvent</span></h1>
+                    <p class="fs-4 fw-normal text-secondary text-opacity-75">
+                        YourEvent by Mirth & Maker allows individuals, creators, and organizations
+                        to host and manage their own events easily. Whether it's a comedy show,
+                        concert, workshop, or private celebration, YourEvent provides the tools
+                        to organize, promote, and manage events smoothly.
+                    </p>
                 </div>
                 <div class="col-md-6">
-                    <img src="https://img.freepik.com/free-photo/people-celebrating-party_53876-14410.jpg?semt=ais_rp_50_assets&w=740&q=80" class="w-100 rounded-3 shadow shadow-regular" alt="">
+                    <img src="https://img.freepik.com/free-photo/people-celebrating-party_53876-14410.jpg?semt=ais_rp_50_assets&w=740&q=80"
+                        class="w-100 rounded-3 shadow shadow-regular" height="350px" alt="">
                 </div>
             </div>
 
             <div class="row">
-                <h3 class="mt-4">Features</h3>
-                <div class="row mt-3 gap-3">
+                <h1 class="mt-4">Features</h1>
+                <div class="row mt-3 d-flex justify-content-evenly">
 
                     <div class="col-md-3 border border-1 shadow shadow-regular rounded-3 p-3 m-2 d-inline w-auto">
-                        <h5>Easy Event Creation</h5>
-                        <p>Create and publish events quickly.</p>
+                        <h3 class="text-dark text-opacity-75">Easy Event Creation</h3>
+                        <p class="text-secondary text-opacity-75">Create and publish events quickly.</p>
                     </div>
 
                     <div class="col-md-3 border border-1 shadow shadow-regular rounded-3 p-3 m-2 d-inline w-auto">
-                        <h5>Event Management</h5>
-                        <p>Manage bookings and event details.</p>
+                        <h3 class="text-dark text-opacity-75">Event Management</h3>
+                        <p class="text-secondary text-opacity-75">Manage bookings and event details.</p>
                     </div>
 
                     <div class="col-md-3 border border-1 shadow shadow-regular rounded-3 p-3 m-2 d-inline w-auto">
-                        <h5>Promotion</h5>
-                        <p>Promote events and attract audience.</p>
+                        <h3 class="text-dark text-opacity-75">Promotion</h3>
+                        <p class="text-secondary text-opacity-75">Promote events and attract audience.</p>
                     </div>
 
                     <div class="col-md-3 border border-1 shadow shadow-regular rounded-3 p-3 m-2 d-inline w-auto">
-                        <h5>Audience Tracking</h5>
-                        <p>Track registrations and attendees.</p>
+                        <h3 class="text-dark text-opacity-75">Audience Tracking</h3>
+                        <p class="text-secondary text-opacity-75">Track registrations and attendees.</p>
                     </div>
 
                 </div>
             </div>
 
-            <div class="row my-4">
-                <h3 class="mt-5">Facilities</h3>
-                <ul class="list-unstyled border border-1 shadow shadow-regular rounded-3 w-auto p-3 my-2">
-                    <li>Venue booking assistance</li>
-                    <li>Sound and lighting setup</li>
-                    <li>Catering services</li>
-                    <li>Event analytics and reporting</li>
-                </ul>
+            <div class="row my-5">
+                <h1 class="mt-5">Facilities</h1>
+                <div class="row mt-3 d-flex justify-content-evenly">
+
+                    <div class="col-md-3 border border-1 shadow shadow-regular rounded-3 p-3 m-2 d-inline w-auto">
+                        <h4 class="text-dark text-opacity-75 text-center my-3">Venue booking assistance</h4>
+                    </div>
+
+                    <div class="col-md-3 border border-1 shadow shadow-regular rounded-3 p-3 m-2 d-inline w-auto">
+                        <h4 class="text-dark text-opacity-75 text-center my-3">Sound and lighting setup</h4>
+                    </div>
+
+                    <div class="col-md-3 border border-1 shadow shadow-regular rounded-3 p-3 m-2 d-inline w-auto">
+                        <h4 class="text-dark text-opacity-75 text-center my-3">Catering services</h4>
+                    </div>
+
+                    <div class="col-md-3 border border-1 shadow shadow-regular rounded-3 p-3 m-2 d-inline w-auto">
+                        <h4 class="text-dark text-opacity-75 text-center my-3">Event analytics and reporting</h4>
+                    </div>
+
+                </div>
             </div>
 
         </section>
